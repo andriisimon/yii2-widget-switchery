@@ -16,13 +16,13 @@ The preferred way to install this extension is through [composer](http://getcomp
 To install, either run
 
 ```
-$ php composer.phar require andriisimon/yii2-widget-switchery "*"
+$ php composer.phar require toxor88/yii2-widget-switchery "*"
 ```
 
 or add
 
 ```
-"andriisimon/yii2-widget-switchery": "*"
+"toxor88/yii2-widget-switchery": "*"
 ```
 
 to the ```require``` section of your `composer.json` file.
