@@ -22,7 +22,7 @@ class SwitcheryAsset extends \yii\web\AssetBundle
      */
     public function init()
     {
-        $this->sourcePath = '@bower/switchery/dist';
+        $this->sourcePath = __DIR__ . '/../../bower-asset/switchery/dist';
         $this->js = [YII_DEBUG ? 'switchery.js' : 'switchery.min.js'];
         $this->css = [YII_DEBUG ? 'switchery.css' : 'switchery.min.css'];
         
